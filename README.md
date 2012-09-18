@@ -2,9 +2,6 @@
 
 Unfortunately, we've been asked to revoke the code, more details later.
 
-
-For recent changes, refer to the [Change Log](https://github.com/venomous0x/WhatsAPI/blob/master/CHANGELOG.md)
-
 # WhatsAPI
 
 Interface to WhatsApp Messenger
