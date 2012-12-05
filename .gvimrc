@@ -9,3 +9,4 @@ set nowrap
 set incsearch
 set number
 set undolevels=10000
+syntax on
