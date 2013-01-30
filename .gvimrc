@@ -2,6 +2,7 @@ set hlsearch
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+syntax on
 let _curfile = expand("%:t")
 if _curfile =~ "Makefile.*" || _curfile =~ "makefile.*" || _curfile =~ ".*\.mk"
     set noexpandtab
@@ -14,4 +15,4 @@ set nowrap
 set incsearch
 set number
 set undolevels=10000
-syntax on
+au BufReadPost Makefile.* set syntax=make
