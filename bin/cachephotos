@@ -1,0 +1,6 @@
+#!/bin/bash
+#mount -t vboxsf albums /media/sf_albums
+pushd .
+cd /var/www
+cakephp/lib/Cake/Console/cake preview generate --size mini
+popd
