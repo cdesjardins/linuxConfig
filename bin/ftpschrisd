@@ -1,0 +1,5 @@
+set ftp:ssl-allow true
+set ftp:ssl-force true
+set ftp:ssl-protect-data true
+set ftp:ssl-protect-list true
+connect secure29.webhostinghub.com
