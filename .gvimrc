@@ -17,3 +17,4 @@ set number
 set undolevels=10000
 set tabpagemax=100
 au BufReadPost Makefile.* set syntax=make
+set guioptions-=T
