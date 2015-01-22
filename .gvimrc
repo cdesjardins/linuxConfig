@@ -19,3 +19,4 @@ set tabpagemax=100
 au BufReadPost Makefile.* set syntax=make
 au BufReadPost *.aidl set syntax=java
 set guioptions-=T
+set guioptions+=c
