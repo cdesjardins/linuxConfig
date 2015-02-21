@@ -8,5 +8,5 @@ elif [ -n "$SSH_TTY" ]; then
 else
     PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\]\[\033[00m\]$ '
 fi
-PATH=$PATH:/sbin
+PATH=$PATH:/sbin:$HOME/bin
 

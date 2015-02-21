@@ -3,3 +3,5 @@
 	email = git@chrisd.info
 [color]
 	ui = true
+[push]
+	default = simple

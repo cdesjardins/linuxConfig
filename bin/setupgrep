@@ -1,2 +1,0 @@
-tgrep() { find ./ -name $2 -print0 | xargs -0 -n1 -P8 grep -H $1 ; }
-
