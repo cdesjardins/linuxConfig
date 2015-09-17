@@ -22,16 +22,14 @@ for file2indent in $file_list
 do 
 echo "Indenting file $file2indent"
 #!/bin/bash
-uncrustify -f "$file2indent" -c "/home/chrisd/bin/uncrustify.cfg" -o indentoutput.tmp
-mv indentoutput.tmp "$file2indent"
+uncrustify "$file2indent" -c "/home/chrisd/bin/uncrustify.cfg" --replace --no-backup
 
 done
 else
 if [ -f "$1" ]; then
 echo "Indenting one file $1"
 #!/bin/bash
-uncrustify -f "$1" -c "/home/chrisd/bin/uncrustify.cfg" -o indentoutput.tmp
-mv indentoutput.tmp "$1"
+uncrustify "$1" -c "/home/chrisd/bin/uncrustify.cfg" --replace --no-backup
 
 else
 echo "ERROR: As parameter given directory or file does not exist!"
