@@ -10,3 +10,7 @@ else
 fi
 PATH=$PATH:/sbin:$HOME/bin
 
+function sshadd() {
+    eval $(ssh-agent -s)
+    ssh-add
+}
