@@ -14,4 +14,6 @@ function sshadd() {
     eval $(ssh-agent -s)
     ssh-add
 }
-export $(dbus-launch)
+if [ -n "$(which dbus-launch)" ]; then
+    export $(dbus-launch)
+fi
