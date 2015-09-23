@@ -14,3 +14,4 @@ function sshadd() {
     eval $(ssh-agent -s)
     ssh-add
 }
+export $(dbus-launch)
