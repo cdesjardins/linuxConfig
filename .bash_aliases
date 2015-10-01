@@ -12,7 +12,7 @@ PATH=$PATH:/sbin:$HOME/bin
 
 function sshadd() {
     eval $(ssh-agent -s)
-    ssh-add
+    ssh-add $1
 }
 if [ -n "$(which dbus-launch)" ]; then
     export $(dbus-launch)
