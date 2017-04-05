@@ -20,3 +20,7 @@ au BufReadPost Makefile.* set syntax=make
 au BufReadPost *.aidl set syntax=java
 set guioptions-=T
 set guioptions+=c
+set backspace=2
+set backspace=indent,eol,start
+set nocompatible
+set scrolloff=0
