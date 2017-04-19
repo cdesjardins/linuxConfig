@@ -14,6 +14,7 @@ set ic
 set nowrap
 set incsearch
 set number
+set ruler
 set undolevels=10000
 set tabpagemax=100
 au BufReadPost Makefile.* set syntax=make
